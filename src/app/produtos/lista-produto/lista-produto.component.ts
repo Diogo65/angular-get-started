@@ -20,7 +20,6 @@ export class ListaProdutoComponent implements OnInit {
           console.log(produtos);
         },
         error => console.log(error)
-      ); 
+      );
   }
-
 }

@@ -14,6 +14,9 @@ import { DataBindingComponent } from './demos/data-binding/data-binding.componen
 import { FormsModule } from '@angular/forms';
 import { ProdutoService } from './produtos/produtos.service';
 import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
