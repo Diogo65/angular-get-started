@@ -4,6 +4,24 @@ https://www.npmjs.com/package/json-server
   
 ## Install JSON Server
 npm install -g json-server
+json-server --watch db.json
+
+# Update version
+npm-check-updates upgrades your package.json dependencies to the latest versions, ignoring specified versions.
+https://www.npmjs.com/package/npm-check-updates
+
+## Install npm-check-updates
+npm install -g npm-check-updates
+
+# Usage
+Check Updates:
+ncu
+
+Upgrade package.json
+ncu -u
+
+Install packages
+npm i
 
 # MinhaAppAngular
 
