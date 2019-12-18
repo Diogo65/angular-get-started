@@ -1,5 +1,9 @@
 # Fake back-end
-  npm i json-server
+Get a full fake REST API with zero coding
+https://www.npmjs.com/package/json-server
+  
+## Install JSON Server
+npm install -g json-server
 
 # MinhaAppAngular
 
