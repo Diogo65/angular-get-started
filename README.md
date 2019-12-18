@@ -1,3 +1,10 @@
+# Fake back-end
+Get a full fake REST API with zero coding
+https://www.npmjs.com/package/json-server
+  
+## Install JSON Server
+npm install -g json-server
+
 # MinhaAppAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
