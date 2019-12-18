@@ -2,6 +2,8 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './navegacao/home/home.component';
 import { ContatoComponent } from './institucional/contato/contato.component';
 import { SobreComponent } from './institucional/sobre/sobre.component';
+import { DataBindingComponent } from './demos/data-binding/data-binding.component';
+
 
 //Esse arquivo de configuração deve ser configurado na Module (app.module)
 export const rootRouterConfig: Routes = [
@@ -12,5 +14,6 @@ export const rootRouterConfig: Routes = [
     //component diz qual componente irá chamar quando chamar essa URL  
     { path: 'home', component: HomeComponent },
     { path: 'contato', component: ContatoComponent },
-    { path: 'sobre', component: SobreComponent }
+    { path: 'sobre', component: SobreComponent },
+    { path: 'feature-data-binding', component: DataBindingComponent }
 ];
