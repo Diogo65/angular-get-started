@@ -1,12 +1,76 @@
 # Fake back-end
-Get a full fake REST API with zero coding
+Get a full fake REST API with zero coding <br>
 https://www.npmjs.com/package/json-server
   
 ## Install JSON Server
-npm install -g json-server
+npm install -g json-server <br>
+json-server --watch db.json
+
+# Update version
+npm-check-updates upgrades your package.json dependencies to the latest versions, ignoring specified versions.<br>
+https://www.npmjs.com/package/npm-check-updates
+
+## Install npm-check-updates
+npm install -g npm-check-updates
+
+## Usage
+Check Updates:
+ncu
+
+Upgrade package.json: 
+ncu -u
+
+Install packages: 
+npm i
+
+# Ivy Compilation
+Ivy is the code name for Angular's next-generation compilation and rendering pipeline. Starting with Angular version 8, you can choose to opt in to start using a preview version of Ivy and help in its continuing development and tuning.
+
+## Using Ivy in a new project
+To start a new project with Ivy enabled, use the --enable-ivy flag with the ng new command: <br>
+
+ng new shiny-ivy-app --enable-ivy
+
+# Using Ivy in an existing project
+tsconfig.app.json.
+{
+  "compilerOptions": { ... },
+  "angularCompilerOptions": {
+    "enableIvy": true
+  }
+}
+
+angular.json
+{
+  "projects": {
+    "my-existing-project": {
+      "architect": {
+        "build": {
+          "options": {
+            ...
+            "aot": true,
+          }
+        }
+      }
+    }
+  }
+}
+
+# VSCode extensions
+<ol>
+  <li>Angular Console</li>
+  <li>Angular Snippets</li>
+  <li>Better Comments</li>
+  <li>Debugger for Chrome</li>
+  <li>GitLens</li>
+  <li>NPM</li>
+  <li>NPM Intellisense</li>
+  <li>VSCode-Icons</li>
+  <li>AngularEssentials</li>
+  <li>Angular Augury</li>
+</ol>
 
 # MinhaAppAngular
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
 ## Development server
